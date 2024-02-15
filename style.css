@@ -1,0 +1,82 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+header{
+    max-width: 1320px;
+    margin: 0 auto;
+    background-image: url(imgs/Banner\ Image.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    align-items: center;
+    padding-top: 80px;
+}
+.hrader-info{
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+   
+}
+.header-title{
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+/* main section style */
+
+.category-section{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 803px;
+    height: 807px;
+    margin-bottom: 100px;
+}
+.category-section h1{
+    font-weight: bold;
+    font-size: 88px;
+    color: #FF0000;
+}
+.category-section p{
+    font-weight: 400;
+    color: #FF0000;
+    font-size: 24px;
+}
+.category-section h3{
+    color: #070211;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+/* Party Section Style */
+
+.party-section{
+    background-image: url(imgs/Vectorrr.png);
+    background-repeat: no-repeat;
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-top: 120px;
+    color: #fff;
+}
+
+/* Date section */
+
+
+.date-section{
+    text-align: center;
+    max-width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    background-image: linear-gradient(pink, gray);
+}
+
+/* Comming section style */
+
+
+.comming-section{
+    display: flex;
+    justify-content: space-between;
+}
