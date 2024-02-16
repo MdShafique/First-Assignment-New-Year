@@ -9,6 +9,7 @@ header{
     height: 600px;
     align-items: center;
     padding-top: 80px;
+    opacity: 0.9;
 }
 .hrader-info{
     text-align: center;
@@ -31,7 +32,7 @@ header{
     margin: 0 auto;
     max-width: 803px;
     height: 807px;
-    margin-bottom: 100px;
+    padding-bottom: 150px;
 }
 .category-section h1{
     font-weight: bold;
@@ -61,6 +62,16 @@ header{
     padding-top: 120px;
     color: #fff;
 }
+.party-section h1{
+    font-size: 64px;
+}
+.party-section button{
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+}
 
 /* Date section */
 
@@ -70,7 +81,22 @@ header{
     max-width: 1320px;
     height: 482px;
     margin: 0 auto;
-    background-image: linear-gradient(pink, gray);
+    background: linear-gradient(pink, white);
+}
+
+.date-text-area{
+    padding-top: 200px;
+}
+.special-color{
+    color: #FF0000;
+}
+.date-section button{
+    border-radius: 7px;
+    background-color: #FF0000;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    text-transform: uppercase;
 }
 
 /* Comming section style */
@@ -79,12 +105,46 @@ header{
 .comming-section{
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1320px;
+    height: 463px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.comming-left{
+    width: 36%;
+    padding-right: 20px;
+}
+.comming-left h4{
+    color: #FF0000;
+}
+.comming-middle{
+    border: 10px solid red;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 455px;
+    height: 380px;
+    padding-top: 15px;
+}
+.comming-right{
+    padding-left: 20px;
+}
+.comming-right h2{
+    color: #FF0000;
 }
 
 .portfolio-section{
     max-width: 1320px;
     height: 1163px;
     margin: 0 auto;
+    margin-top: 100px;
+}
+.text-area h4{
+    color: #FF0000;
+}
+.image-area img:hover{
 }
 
 .newslatter-section{
@@ -116,7 +176,7 @@ header{
     top: 3px;
     bottom: 3px;
     border: 0;
-    background: #d1095e;
+    background: #FF0000;
     color: #fff;
     outline: none;
     margin: 0;
